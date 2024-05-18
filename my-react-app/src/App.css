@@ -1,0 +1,39 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+fieldset {
+  width: 30vw;
+  background-color: #eeeeee;
+}
+input{
+  width: 98%;
+  height: 25px;
+  cursor: pointer;
+}
+legend {
+  color: #000;
+  padding: 5px 10px;
+}
+
+#male,#female,#other{
+  width: 15px;
+  height: 15px;
+}
+#submit{
+  height: 30px;
+  width: 100px;
+}
+#submit:hover{
+  background-color: #52f511;
+  color: #fff;
+  border: none;
+}
