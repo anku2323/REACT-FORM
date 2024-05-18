@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
-function Anku() {
+function Form() {
   const [fname, setFname] = useState("");
   const [lname, setLname] = useState("");
   const [email, setEmail] = useState("");
@@ -106,4 +106,4 @@ function Anku() {
   );
 }
 
-export default Anku;
+export default Form ;
